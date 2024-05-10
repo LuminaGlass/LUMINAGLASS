@@ -1,0 +1,101 @@
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="LUMINAGLASS" content="width=device-width, initial-scale=1.0">
+  <title>Instalación de Ventanas y Puertas de Aluminio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Instalación de Ventanas y Puertas de Aluminio</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenido/a a nuestra página web</h2>
+    <p>Somos expertos en la instalación de ventanas, puertas de aluminio, y marcos. ¡Déjanos ayudarte a mejorar tu hogar!</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <ul>
+      <li>Instalación de Ventanas de Aluminio</li>
+      <li>Instalación de Puertas de Aluminio</li>
+      <li>Instalación de Marcos de Aluminio</li>
+      <li>Reparación y Mantenimiento</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <p>Aquí encontrarás algunas imágenes de nuestros proyectos realizados.</p>
+    <!-- Inserta aquí tus imágenes -->
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Para obtener más información o solicitar un presupuesto, no dudes en contactarnos:</p>
+    <ul>
+      <li>Email: mundozg5@gmail.com</li>
+      <li>Teléfono: 944-351-374</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Derechos Reservados &copy; 2024</p>
+  </footer>
+</body>
+</html>
+
+
+CSS (styles.css):
+
+css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;}
+
+}
